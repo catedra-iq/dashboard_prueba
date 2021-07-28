@@ -11,7 +11,7 @@ st.title(
 st.subheader("Cátedra de Introducción a la Química UNLP. FCE")
 
 
-st.title("Murieta")
+
 
 x=np.linspace(-1,1,100)
 y =x**2
@@ -21,5 +21,4 @@ ax=ax.flatten()
 ax[0].plot(x,y)
 ax[1].scatter(x,y)
 st.pyplot(fig)
-
 
